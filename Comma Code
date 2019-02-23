@@ -1,0 +1,17 @@
+#Comma Code
+spam = ['apples', 'bananas', 'tofu', 'cats'] #list named spam
+
+def comma(things): #defines function comma with argument things.
+    for i in range(len(things) - 2 ): # for the length of things until the next to last list item    
+        print(things[i], end =', ') #prints all the items in things one at a time need the "end" to join the lines
+    print(things[-2] + ', and ' + things[-1]) #prints list things up until item -2, then adds ", and "
+                                               # next the last item in things is printed
+    
+    
+    
+print(comma(spam))# prints the results of the comma function taking the spam list as the argument
+  
+    
+   
+
+       
